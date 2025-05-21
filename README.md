@@ -6,11 +6,6 @@
 - **tensorflow**: Chạy mô hình AI để nhận diện món ăn.
 - **numpy**: Xử lý mảng dữ liệu ảnh.
 - **time**: Thêm độ trễ để đồng bộ hệ thống.
-
-## Cài đặt môi trường
-```bash
-  pip install pyserial opencv-python tensorflow numpy
-
 ## Mô tả đề tài
 -Tích hợp Arduino vào máy tính tiền, nhận diện tiền Việt Nam thông qua camera và nhận diện bằng model CNN, kết hợp Arduino điều khiển các thành phần vật lý như servo, cảm biến siêu âm, hồng ngoại và LCD để tạo ra một máy tính tiền tự động.
 ## Thành phần chính
@@ -34,3 +29,21 @@
 - /hardware/: Sơ đồ mạch và kết nối
 - /report/: Báo cáo & Poster
 - /communication/: Giao tiếp với Arduino
+# 📦 Đồ án cuối kỳ: Ứng dụng AI vào máy tính tiền
+
+## 🧰 Thư viện sử dụng
+
+Ứng dụng máy tính dùng Python để xử lý ảnh và gửi dữ liệu đến Arduino. Các thư viện chính gồm:
+
+- **pyserial**: Giao tiếp Serial với Arduino.
+- **opencv-python (cv2)**: Mở webcam, đọc và hiển thị ảnh.
+- **tensorflow**: Chạy mô hình AI để nhận diện món ăn.
+- **numpy**: Xử lý mảng dữ liệu ảnh.
+- **time**: Thêm độ trễ để đồng bộ hệ thống.
+
+## ⚙️ Cài đặt môi trường
+
+Chạy lệnh sau để cài đặt các thư viện cần thiết:
+
+```bash
+pip install pyserial opencv-python tensorflow numpy
