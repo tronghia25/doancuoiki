@@ -8,6 +8,7 @@
 - **time**: Thêm độ trễ để đồng bộ hệ thống.
 
 ## Cài đặt môi trường
+```bash
   pip install pyserial opencv-python tensorflow numpy
 
 ## Mô tả đề tài
