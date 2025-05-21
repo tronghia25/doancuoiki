@@ -8,6 +8,10 @@
 - **time**: Thêm độ trễ để đồng bộ hệ thống.
 ## Mô tả đề tài
 -Tích hợp Arduino vào máy tính tiền, nhận diện tiền Việt Nam thông qua camera và nhận diện bằng model CNN, kết hợp Arduino điều khiển các thành phần vật lý như servo, cảm biến siêu âm, hồng ngoại và LCD để tạo ra một máy tính tiền tự động.
+## Cách thức hoạt động
+  Do không có đầu vào nên để đầu vào mặc định là 20000VNĐ. Đầu tiền cảm biến siêu âm sẽ đo khonagr cách nếu khoảng cách dưới 5cm thì mở khay bằng Servo 1 và Servo 2 nếu sau 5s không có tín hiệu từ cảm biến hổng ngoại tức là không có tiền được đưa vào thì tự động đóng khay, còn nếu có tiền được đưa vào thì đóng khay và Arduino sẽ đưa tín hiệu để chụp ảnh và nhận diện là bao nhiêu tiền :
+  - Nếu lớn hơn hoặc bằng 20000VNĐ sễ hiện lên LCD là thừa bao nhiêu hoặc đủ sau đó Servo 3 sẽ quay cho tiền rớt xuống khay nhận tiền.
+  - Nếu nhỏ hơn 20000VNĐ sẽ hiện lên LCD là không đủ và Servo 1 và Servo 2 quay 90 độ mở khay để khách hàng có thể lấy tiền ra.
 ## Thành phần chính
 - 3 servo MG90S
 - cảm biến hồng ngoại
