@@ -1,5 +1,5 @@
 # doancuoiki
-##Thư viện sử dụng
+## Thư viện sử dụng
 Ứng dụng máy tính dùng Python để xử lý ảnh và gửi dữ liệu đến Arduino. Các thư viện chính gồm:
 - **pyserial**: Giao tiếp Serial với Arduino.
 - **opencv-python (cv2)**: Mở webcam, đọc và hiển thị ảnh.
@@ -7,7 +7,7 @@
 - **numpy**: Xử lý mảng dữ liệu ảnh.
 - **time**: Thêm độ trễ để đồng bộ hệ thống.
 
-Cài đặt môi trường
+## Cài đặt môi trường
   pip install pyserial opencv-python tensorflow numpy
 
 ## Mô tả đề tài
