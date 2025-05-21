@@ -21,6 +21,7 @@
 - Kiểu: CNN / MobileNetV2
 - Framework: TensorFlow 
 - Định dạng: .h5
+- Tải mô hình tại: [Google Drive](https://drive.google.com/file/d/1Xu-GQAL4C40Y0cCA1pOngeNBJBMNdicv/view?usp=sharing)
 ## Video
 [Demo trên YouTube](https://youtube.com/shorts/pvQ0PyGk9uU?si=j1ldiX44rAExibp5)
 ## Thư mục
