@@ -32,6 +32,10 @@
 - /communication/: Giao tiếp với Arduino
 ## Sơ đồ mạch điện
 -[Google Drive](https://drive.google.com/file/d/1SmoSDjhZMcJzUHJl8t_o4Vg0lUr6SPvU/view?usp=sharing)
+## Thư viện Arduino
+- **include <Servo.h>** :Điều khiển servo
+- **include <Wire.h>** :Giao tiếp I2C
+- **include <LiquidCrystal_I2C.h>** :Màn hình LCD I2C
 ## Thư viện sử dụng
 Ứng dụng máy tính dùng Python để xử lý ảnh và gửi dữ liệu đến Arduino. Các thư viện chính gồm:
 - **pyserial**: Giao tiếp Serial với Arduino.
