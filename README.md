@@ -17,7 +17,8 @@
 ## Video
 [Demo trên YouTube](https://youtube.com/shorts/pvQ0PyGk9uU?si=j1ldiX44rAExibp5)
 ## Thư mục
-- `/firmware/`: Code Arduino
-- `/ai_model/`: Mô hình AI
-- `/hardware/`: Sơ đồ mạch và kết nối
-- `/report/`: Báo cáo & Poster
+- /firmware/: Code Arduino
+- /ai_model/: Mô hình AI
+- /hardware/: Sơ đồ mạch và kết nối
+- /report/: Báo cáo & Poster
+- /communication/: Giao tiếp với Arduino
