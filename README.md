@@ -1,4 +1,4 @@
-# doancuoiki
+# Đồ án cuối kỳ: Ứng dụng AI vào máy tính tiền
 ## Thư viện sử dụng
 Ứng dụng máy tính dùng Python để xử lý ảnh và gửi dữ liệu đến Arduino. Các thư viện chính gồm:
 - **pyserial**: Giao tiếp Serial với Arduino.
@@ -29,20 +29,14 @@
 - /hardware/: Sơ đồ mạch và kết nối
 - /report/: Báo cáo & Poster
 - /communication/: Giao tiếp với Arduino
-# 📦 Đồ án cuối kỳ: Ứng dụng AI vào máy tính tiền
-
-## 🧰 Thư viện sử dụng
-
+## Thư viện sử dụng
 Ứng dụng máy tính dùng Python để xử lý ảnh và gửi dữ liệu đến Arduino. Các thư viện chính gồm:
-
 - **pyserial**: Giao tiếp Serial với Arduino.
 - **opencv-python (cv2)**: Mở webcam, đọc và hiển thị ảnh.
 - **tensorflow**: Chạy mô hình AI để nhận diện món ăn.
 - **numpy**: Xử lý mảng dữ liệu ảnh.
 - **time**: Thêm độ trễ để đồng bộ hệ thống.
-
-## ⚙️ Cài đặt môi trường
-
+## Cài đặt môi trường
 Chạy lệnh sau để cài đặt các thư viện cần thiết:
 
 ```bash
